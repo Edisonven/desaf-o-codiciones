@@ -47,7 +47,20 @@
             </select>
         </div>
         <button class="btn__2" onclick="
-       
+        select_1= document.querySelector('#select_1').value;
+        select_2= document.querySelector('#select_2').value;
+        select_3= document.querySelector('#select_3').value;
+        verificar_2=document.querySelector('.verificar_2');
+        calculo= (select_1) + (select_2) + (select_3);
+        if(calculo == 911) {
+            verificar_2.innerHTML='Password 1 correcto';
+        }
+        else if(calculo == 714){
+            verificar_2.innerHTML='Password 2 correcto';
+        }
+        else{
+            verificar_2.innerHTML='Password incorrecto';
+        }
         ">Ingresar</button>
         <h1 class="verificar_2"></h1>
     </section>
