@@ -6,10 +6,6 @@ body {
   font-family: sans-serif;
   width: 100%;
   height: 100vh;
-  background-image: linear-gradient(to top, #fbc2eb 0%, #a6c1ee 100%);
-  display: flex;
-  align-items: center;
-  justify-content: center;
 }
 .container__imagen__body {
   height: 100vh;
@@ -40,7 +36,11 @@ body {
 .container__stickers__body {
   width: 100%;
   background: url(../images/fondo.jpg);
-  height: 100vh;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 .stickers__container {
   display: flex;
@@ -90,7 +90,7 @@ input[type="number"] {
   font-size: 1.5rem;
   border-radius: 10px;
   width: 280px;
-  padding-left: 0 10px;
+  padding: 0 2px 0 10px;
 }
 .container__password__body {
   background-image: url(../images/neom-r4ZSR0cKJw8-unsplash.jpg);
