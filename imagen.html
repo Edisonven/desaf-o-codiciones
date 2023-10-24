@@ -13,10 +13,12 @@
         <h1 class="title">Presiona la imágen para añadir bordes</h1>
         <img onclick="
         a= document.querySelector('#img').style.border='1px solid red';  
-  
+        if(a=='1px solid red'){
+            a.style.border='none';
+        }      
        " src="./assets/images/neom-gVDUuJaG_wM-unsplash.jpg" alt="imagen-paisaje" id="img" class="container__img">
     </section>
-    <a class="boton__desafío" href="password.html">Pasar al siguiente desafío</a>
+    <a class="boton__desafío" href="stickers.html">Pasar al siguiente desafío</a>
 </body>
 
 </html>
