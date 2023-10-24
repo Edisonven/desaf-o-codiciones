@@ -39,25 +39,34 @@ body {
 }
 .container__stickers__body {
   width: 100%;
+  background: url(../images/fondo.jpg);
+  height: 100vh;
 }
 .stickers__container {
   display: flex;
   align-items: center;
-  justify-content: space-evenly;
+  justify-content: center;
+  gap: 50px;
 }
 .stickers {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  align-items: center;
   gap: 20px;
 }
 .sticker {
-  width: 300px;
-  height: 300px;
+  width: 280px;
+  height: 350px;
+  border: 3px solid black;
+  padding: 40px 20px;
+  border-radius: 10px;
+  background: rgba(255, 255, 255, 0.514);
 }
 .verificar {
   text-align: center;
   margin-top: 50px;
+  color: white;
 }
 .btn {
   display: flex;
@@ -79,6 +88,9 @@ body {
 
 input[type="number"] {
   font-size: 1.5rem;
+  border-radius: 10px;
+  width: 280px;
+  padding-left: 0 10px;
 }
 .container__password__body {
   background-image: url(../images/neom-r4ZSR0cKJw8-unsplash.jpg);
