@@ -107,10 +107,12 @@ input[type="number"] {
 .btn__2 {
   font-size: 1.5rem;
   cursor: pointer;
-  padding: 5px 50px;
+  padding: 5px 40px;
   border-radius: 5px;
   border: none;
+  font-weight: bold;
 }
+
 .boton__desafío {
   color: white;
   background-color: black;
