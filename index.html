@@ -16,9 +16,11 @@
         imagen= document.getElementById('img')
         if(imagen.style.border){
             imagen.style.border=''
+            title= document.querySelector('.title').innerHTML='Presiona la imágen para añadir bordes'
         }
         else{
             imagen.style.border='1px solid red'
+            title= document.querySelector('.title').innerHTML='Presiona nuevamente para quitar bordes'
         }
        " src="./assets/images/Windows_logo_-_2012.png" alt="imagen-paisaje" id="img" class="container__img">
         </section>
